@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-boot-config
+  profiles:
+    active: dev
+server:
+  port: 8080
+cyy:
+  blog:
+    name: blog
+    title: spring-boot-config
+    whole-title: ${cyy.blog.name} --- ${cyy.blog.title}
